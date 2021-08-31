@@ -1,0 +1,454 @@
+@font-face {
+    font-family: GilroyBold;
+    src: url("../fonts/GilroyBold.ttf");
+}
+
+@font-face {
+    font-family: GilroyExtraBold;
+    src: url("../fonts/GilroyExtraBold.otf");
+}
+
+@font-face {
+    font-family: GilroyMedium;
+    src: url("../fonts/GilroyMedium.ttf");
+}
+
+@font-face {
+    font-family: GilroyRegular;
+    src: url("../fonts/GilroyRegular.ttf");
+}
+
+@font-face {
+    font-family: TavolgaFree;
+    src: url("../fonts/TavolgaFree.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: TavolgaFree, sans-serif;
+}
+
+#header {
+    background: #eba8b1;
+    padding: 35px 0;
+}
+
+#header-container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-container svg {
+    display: none;
+}
+
+.logo {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+#header-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 314px;
+}
+
+#header-menu a:hover {
+    border-bottom: 2px solid rgb(119, 11, 29);
+}
+
+.header-item {
+    font-size: 14px;
+    font-family: "GilroyMedium", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(119, 11, 29);
+    text-decoration: none;
+}
+
+.phone {
+    font-size: 16px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#main {
+    background: #eba8b1;
+    padding: 144px 0;
+}
+
+#main-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-info {
+    z-index: 2;
+}
+
+#main-title {
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    line-height: 1.091;
+    margin-bottom: 60px;
+    width: 582px;
+}
+
+#main-message {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.389;
+    width: 345px;
+    margin-bottom: 80px;
+}
+
+#main-image {
+    position: relative;
+}
+
+#main-image img {
+    width: 550px;
+    position: absolute;
+    right: 25px;
+    bottom: -40px;
+    z-index: 1;
+}
+
+.btn {
+    background-image: -moz-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    width: 240px;
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(255, 255, 255);
+    border: 0;
+    outline: 0;
+    border-radius: 35px;
+    padding: 22px 41px;
+    box-sizing: border-box;
+}
+
+#description {
+    background: #ffefef;
+    padding: 119px 0 30px 0;
+}
+
+#description-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#description-info {
+    z-index: 2;
+}
+
+#description-title {
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+    font-size: 45px;
+    margin-bottom: 60px;
+    width: 475px;
+}
+
+#description-message {
+    width: 400px;
+    font-size: 18px;
+    font-family: "GilroyRegular", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+}
+
+#quality {
+    background: #ffefef;
+    padding: 50px 0 126px 0;
+}
+
+#quality-container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+#quality-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.quality-item {
+    width: 221px;
+    text-align: left;
+}
+
+.quality-item .quality-circle {
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(130, 19, 40);
+    margin-bottom: 15px;
+}
+
+.quality-circle .quality-number {
+    font-size: 60px;
+    color: #FFFFFF;
+    font-family: "GilroyExtraBold", sans-serif;
+    position: relative;
+    bottom: -18px;
+    left: 18px;
+}
+
+.quality-title {
+    font-size: 20px;
+    font-family: "GilroyExtraBold", sans-serif;
+    color: rgb(51, 25, 7);
+    margin-bottom: 20px;
+}
+
+.quality-text {
+    font-size: 15px;
+    font-family: "GilroyMedium", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.333;
+    width: 216px;
+}
+
+#product {
+    background: #eba8b1;
+    padding: 120px 0;
+}
+
+#product-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+#product-title {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    line-height: 1.222;
+    margin-bottom: 143px;
+}
+
+#product-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.product-item {
+    background: transparent;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+    width: 259px;
+    padding: 109px 21px 27px 21px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.product-name {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 26px;
+}
+
+.bottom-cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-item .bottom-cart .btn {
+    width: 130px;
+    padding: 14px 29px;
+}
+
+.product-image {
+    width: 192px;
+    position: relative;
+}
+
+.product-image img {
+    width: 192px;
+    position: absolute;
+    left: 12px;
+    bottom: 50px;
+}
+
+.amount-costs {
+    text-align: left;
+    font-size: 15px;
+    font-family: "GilroyRegular", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.amount-costs div:first-child {
+    margin-bottom: 16px;
+}
+
+#order {
+    background: #ffefef;
+    padding: 96px 0 59px 0;
+}
+
+#order-container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+#order-info {
+    width: 415px;
+    text-align: left;
+    position: relative;
+}
+
+#order-title {
+    font-size: 45px;
+    color: rgb(51, 25, 7);
+    margin-bottom: 41px;
+}
+
+#order-message {
+    font-size: 18px;
+    font-family: "GilroyRegular", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    width: 398px;
+    margin-bottom: 48px;
+}
+
+#order-info .name-input {
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(18, 10, 6);
+}
+
+#order-info .name-input:nth-child(3) {
+    margin-bottom: 20px;
+}
+
+#order-info input {
+    border: 1px solid #821328;
+    border-radius: 30px;
+    width: 293px;
+    padding: 23px 25px;
+    box-sizing: border-box;
+    outline: 0;
+    background: transparent;
+}
+
+::placeholder {
+    font-size: 15px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(118, 12, 34);
+}
+
+#order-info input:nth-child(4) {
+    margin-bottom: 40px;
+}
+
+#order-info .name-input:nth-child(5) {
+    margin-bottom: 22px;
+}
+
+#order-info input:nth-child(6) {
+    margin-bottom: 15px;
+}
+
+#order-info input:nth-child(7) {
+    margin-bottom: 15px;
+}
+
+#order-info button.btn {
+    width: 293px;
+}
+
+#order-image {
+    position: relative;
+    top: 75px;
+    left: -65px;
+}
+
+#strawberry-left img {
+    width: 82px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+#strawberry-right img {
+    position: relative;
+    right: -350px;
+    bottom: 150px;
+}
+
+#footer {
+    background: #c0707c;
+    padding: 73px 0 62px 0;
+}
+
+#footer-container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-logo-rights #rights {
+    margin-top: 19px;
+    font-size: 12px;
+    font-family: "GilroyRegular", sans-serif;
+    color: rgb(227, 172, 180);
+}
+
+#insta {
+    text-align: center;
+}
+
+#insta svg {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 15px;
+    fill: #FFFFFF;
+}
+
+#insta #svg-text {
+    font-size: 16px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
